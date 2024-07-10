@@ -1,4 +1,4 @@
-export const LiveMatchesData = {
+ export const LiveMatchesData = [{
     "apikey": "ecb35d47-4d30-4e65-8c30-ce00ee312f4b",
     "data": [
         {
@@ -807,4 +807,4 @@ export const LiveMatchesData = {
         "s": 0,
         "cache": 0
     }
-}
+}]
