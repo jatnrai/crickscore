@@ -10,13 +10,18 @@ function Home() {
     setData(LiveMatchesData[0].data)
   } ,[])
 
+  const dummyTeam = [
+    {img: "https://www.gstatic.com/onebox/sports/logos/crest_48dp.png", name: "TBA"},
+    {img: "https://www.gstatic.com/onebox/sports/logos/crest_48dp.png", name: "TBA"},
+  ]
+
   console.log(data);
 
   return (
     <div>
-      <h2>Home</h2>
+      <h1 className='text-center m-3'>CrickScore</h1>
       <Container>
-      <LiveMatchesCard  data={data}/>
+      <LiveMatchesCard  data={data}  dummyTeam={dummyTeam} />
     </Container>
      </div>
   );

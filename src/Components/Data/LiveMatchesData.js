@@ -1,810 +1,534 @@
- export const LiveMatchesData = [{
-    "apikey": "ecb35d47-4d30-4e65-8c30-ce00ee312f4b",
-    "data": [
-        {
-            "id": "cc643eed-787d-41e4-a2c6-f8e0d2253ec6",
-            "name": "Sri Lanka vs India, 3rd ODI",
+ export const LiveMatchesData = [
+    {
+        "apikey": "ecb35d47-4d30-4e65-8c30-ce00ee312f4b",
+        "data": [
+          {
+            "id": "4378faf1-959c-4d2a-bcce-45fa662d4aa2",
+            "name": "Ireland vs South Africa, 2nd ODI",
             "matchType": "odi",
             "status": "Match not started",
-            "venue": "TBC, TBC",
-            "date": "2024-08-07",
-            "dateTimeGMT": "2024-08-07T09:00:00",
+            "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+            "date": "2024-10-04",
+            "dateTimeGMT": "2024-10-04T06:00:00",
             "teams": [
-                "Sri Lanka",
-                "India"
+              "Ireland",
+              "South Africa"
             ],
             "teamInfo": [
-                {
-                    "name": "India",
-                    "shortname": "IND",
-                    "img": "https://g.cricapi.com/iapi/31-637877061080567215.webp?w=48"
-                },
-                {
-                    "name": "Sri Lanka",
-                    "shortname": "SL",
-                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
-                }
+              {
+                "name": "Ireland",
+                "shortname": "IRE",
+                "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+              },
+              {
+                "name": "South Africa",
+                "shortname": "RSA",
+                "img": "https://g.cricapi.com/iapi/82-637877071839088912.webp?w=48"
+              }
             ],
-            "series_id": "b2620cd9-7201-4866-bdea-7690350ade2d",
+            "score": [],
+            "series_id": "e4272d6e-60da-4156-9fb8-be20e7d227ef",
             "fantasyEnabled": false,
             "bbbEnabled": false,
             "hasSquad": false,
             "matchStarted": false,
             "matchEnded": false
-        },
-        {
-            "id": "34e676a8-2027-444b-b495-4ccf7148eacd",
-            "name": "Sri Lanka vs India, 2nd ODI",
+          },
+          {
+            "id": "c2edf019-c204-464d-aa7f-99a5e3b39abf",
+            "name": "Ireland vs South Africa, 1st ODI",
             "matchType": "odi",
             "status": "Match not started",
-            "venue": "TBC, TBC",
-            "date": "2024-08-04",
-            "dateTimeGMT": "2024-08-04T09:00:00",
+            "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+            "date": "2024-10-02",
+            "dateTimeGMT": "2024-10-02T06:00:00",
             "teams": [
-                "Sri Lanka",
-                "India"
+              "Ireland",
+              "South Africa"
             ],
             "teamInfo": [
-                {
-                    "name": "India",
-                    "shortname": "IND",
-                    "img": "https://g.cricapi.com/iapi/31-637877061080567215.webp?w=48"
-                },
-                {
-                    "name": "Sri Lanka",
-                    "shortname": "SL",
-                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
-                }
+              {
+                "name": "Ireland",
+                "shortname": "IRE",
+                "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+              },
+              {
+                "name": "South Africa",
+                "shortname": "RSA",
+                "img": "https://g.cricapi.com/iapi/82-637877071839088912.webp?w=48"
+              }
             ],
-            "series_id": "b2620cd9-7201-4866-bdea-7690350ade2d",
+            "score": [],
+            "series_id": "e4272d6e-60da-4156-9fb8-be20e7d227ef",
             "fantasyEnabled": false,
             "bbbEnabled": false,
             "hasSquad": false,
             "matchStarted": false,
             "matchEnded": false
-        },
-        {
-            "id": "b21f37bf-751b-4614-ab59-2f5fb34f70c7",
-            "name": "Sri Lanka vs India, 1st ODI",
-            "matchType": "odi",
-            "status": "Match not started",
-            "venue": "TBC, TBC",
-            "date": "2024-08-02",
-            "dateTimeGMT": "2024-08-02T09:00:00",
-            "teams": [
-                "Sri Lanka",
-                "India"
-            ],
-            "teamInfo": [
-                {
-                    "name": "India",
-                    "shortname": "IND",
-                    "img": "https://g.cricapi.com/iapi/31-637877061080567215.webp?w=48"
-                },
-                {
-                    "name": "Sri Lanka",
-                    "shortname": "SL",
-                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
-                }
-            ],
-            "series_id": "b2620cd9-7201-4866-bdea-7690350ade2d",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": false,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "0542b986-f269-4aa1-a811-7ec79f1010cd",
-            "name": "Sri Lanka vs India, 3rd T20I",
+          },
+          {
+            "id": "b16b75c4-5fa4-46c7-ac45-8b80a47e9712",
+            "name": "Ireland vs South Africa, 2nd T20I",
             "matchType": "t20",
             "status": "Match not started",
-            "venue": "TBC, TBC",
-            "date": "2024-07-30",
-            "dateTimeGMT": "2024-07-30T13:30:00",
+            "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+            "date": "2024-09-29",
+            "dateTimeGMT": "2024-09-29T16:00:00",
             "teams": [
-                "Sri Lanka",
-                "India"
+              "Ireland",
+              "South Africa"
             ],
             "teamInfo": [
-                {
-                    "name": "India",
-                    "shortname": "IND",
-                    "img": "https://g.cricapi.com/iapi/31-637877061080567215.webp?w=48"
-                },
-                {
-                    "name": "Sri Lanka",
-                    "shortname": "SL",
-                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
-                }
+              {
+                "name": "Ireland",
+                "shortname": "IRE",
+                "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+              },
+              {
+                "name": "South Africa",
+                "shortname": "RSA",
+                "img": "https://g.cricapi.com/iapi/82-637877071839088912.webp?w=48"
+              }
             ],
-            "series_id": "b2620cd9-7201-4866-bdea-7690350ade2d",
+            "score": [],
+            "series_id": "e4272d6e-60da-4156-9fb8-be20e7d227ef",
             "fantasyEnabled": false,
             "bbbEnabled": false,
             "hasSquad": false,
             "matchStarted": false,
             "matchEnded": false
-        },
-        {
-            "id": "559bdd3e-ad5f-4074-8434-bc3e86e70200",
-            "name": "Sri Lanka vs India, 2nd T20I",
+          },
+          {
+            "id": "d3308dcd-741c-450b-a087-6c186b369700",
+            "name": "Ireland vs South Africa, 1st T20I",
             "matchType": "t20",
             "status": "Match not started",
-            "venue": "TBC, TBC",
-            "date": "2024-07-28",
-            "dateTimeGMT": "2024-07-28T13:30:00",
+            "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+            "date": "2024-09-27",
+            "dateTimeGMT": "2024-09-27T16:00:00",
             "teams": [
-                "Sri Lanka",
-                "India"
+              "Ireland",
+              "South Africa"
             ],
             "teamInfo": [
-                {
-                    "name": "India",
-                    "shortname": "IND",
-                    "img": "https://g.cricapi.com/iapi/31-637877061080567215.webp?w=48"
-                },
-                {
-                    "name": "Sri Lanka",
-                    "shortname": "SL",
-                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
-                }
+              {
+                "name": "Ireland",
+                "shortname": "IRE",
+                "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+              },
+              {
+                "name": "South Africa",
+                "shortname": "RSA",
+                "img": "https://g.cricapi.com/iapi/82-637877071839088912.webp?w=48"
+              }
             ],
-            "series_id": "b2620cd9-7201-4866-bdea-7690350ade2d",
+            "score": [],
+            "series_id": "e4272d6e-60da-4156-9fb8-be20e7d227ef",
             "fantasyEnabled": false,
             "bbbEnabled": false,
             "hasSquad": false,
             "matchStarted": false,
             "matchEnded": false
-        },
-        {
-            "id": "c6332d1c-db11-4e9b-ab0a-3312d14f2145",
-            "name": "Sri Lanka vs India, 1st T20I",
-            "matchType": "t20",
-            "status": "Match not started",
-            "venue": "TBC, TBC",
-            "date": "2024-07-27",
-            "dateTimeGMT": "2024-07-27T13:30:00",
-            "teams": [
-                "Sri Lanka",
-                "India"
-            ],
-            "teamInfo": [
-                {
-                    "name": "India",
-                    "shortname": "IND",
-                    "img": "https://g.cricapi.com/iapi/31-637877061080567215.webp?w=48"
-                },
-                {
-                    "name": "Sri Lanka",
-                    "shortname": "SL",
-                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
-                }
-            ],
-            "series_id": "b2620cd9-7201-4866-bdea-7690350ade2d",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": false,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "d17144c4-7300-42d3-9e83-678033529a21",
-            "name": "First Class Counties XI vs West Indies, 3-day Warm-up Match",
+          },
+          {
+            "id": "8c30b133-2eb6-4ec8-92e6-db1202f1d3bd",
+            "name": "Ireland vs Zimbabwe, Only Test",
             "matchType": "test",
-            "status": "Day 3: Lunch - no play before lunch due to rain-West Indies lead by 23 runs",
-            "venue": "Kent County Cricket Ground, Beckenham",
-            "date": "2024-07-03",
-            "dateTimeGMT": "2024-07-03T10:00:00",
+            "status": "Match not started",
+            "venue": "Civil Service Cricket Club, Belfast",
+            "date": "2024-07-25",
+            "dateTimeGMT": "2024-07-25T09:45:00",
             "teams": [
-                "First Class Counties XI",
-                "West Indies"
+              "Ireland",
+              "Zimbabwe"
             ],
             "teamInfo": [
-                {
-                    "name": "First Class Counties XI",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "West Indies",
-                    "shortname": "WI",
-                    "img": "https://g.cricapi.com/iapi/100-637877077978319234.webp?w=48"
-                }
+              {
+                "name": "Ireland",
+                "shortname": "IRE",
+                "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+              },
+              {
+                "name": "Zimbabwe",
+                "shortname": "ZIM",
+                "img": "https://g.cricapi.com/iapi/575-637877079629985215.webp?w=48"
+              }
             ],
-            "score": [
-                {
-                    "r": 339,
-                    "w": 10,
-                    "o": 72.1,
-                    "inning": "West Indies Inning 1"
-                },
-                {
-                    "r": 373,
-                    "w": 4,
-                    "o": 85,
-                    "inning": "First Class Counties XI Inning 1"
-                },
-                {
-                    "r": 57,
-                    "w": 2,
-                    "o": 13,
-                    "inning": "West Indies Inning 2"
-                }
-            ],
-            "series_id": "8416d6a5-c599-4d86-8f89-56383edc6c07",
-            "fantasyEnabled": true,
-            "bbbEnabled": false,
-            "hasSquad": true,
-            "matchStarted": true,
-            "matchEnded": false
-        },
-        {
-            "id": "66dc7355-fee5-4986-8763-d1def957602b",
-            "name": "Tbc vs Tbc, Final",
-            "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-13",
-            "dateTimeGMT": "2024-07-13T15:30:00",
-            "teams": [
-                "Tbc",
-                "Tbc"
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
+            "score": [],
+            "series_id": "d5765bf8-3845-4ca4-9153-eeac81c56f32",
             "fantasyEnabled": false,
             "bbbEnabled": false,
             "hasSquad": false,
             "matchStarted": false,
             "matchEnded": false
-        },
-        {
-            "id": "398bfa03-9055-41d2-b9bb-40af8fdf3d5d",
-            "name": "Tbc vs Tbc, 2nd Semi Final",
+          },
+          {
+            "id": "e8847f1d-23c0-4254-9f5f-64753e290bd2",
+            "name": "Somerset vs Surrey, South Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "County Ground, Northampton",
+            "status": "Somerset won by 6 wkts",
+            "venue": "The Cooper Associates County Ground, Taunton",
             "date": "2024-07-12",
-            "dateTimeGMT": "2024-07-12T15:30:00",
+            "dateTimeGMT": "2024-07-12T18:00:00",
             "teams": [
-                "Tbc",
-                "Tbc"
+              "Somerset",
+              "Surrey"
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": false,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "71dc29b3-0799-441e-a015-7c47acfed78c",
-            "name": "Tbc vs Tbc, 1st Semi Final",
+            "teamInfo": [
+              {
+                "name": "Somerset",
+                "shortname": "SOM",
+                "img": "https://g.cricapi.com/iapi/1131-637885552070524344.webp?w=48"
+              },
+              {
+                "name": "Surrey",
+                "shortname": "SUR",
+                "img": "https://g.cricapi.com/iapi/1133-637885552361099530.webp?w=48"
+              }
+            ],
+            "score": [
+              {
+                "r": 182,
+                "w": 5,
+                "o": 20,
+                "inning": "Surrey Inning 1"
+              },
+              {
+                "r": 183,
+                "w": 4,
+                "o": 19,
+                "inning": "Somerset Inning 1"
+              }
+            ],
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+          },
+          {
+            "id": "5a67f972-2914-4298-b026-f0fa0a4a4fac",
+            "name": "Hampshire vs Gloucestershire, South Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "County Ground, Northampton",
+            "status": "Hampshire won by 5 wkts",
+            "venue": "The Rose Bowl, Southampton",
             "date": "2024-07-12",
-            "dateTimeGMT": "2024-07-12T11:30:00",
+            "dateTimeGMT": "2024-07-12T18:00:00",
             "teams": [
-                "Tbc",
-                "Tbc"
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": false,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "a4800f6d-c362-4085-9828-ab50671e04ab",
-            "name": "India Champions vs South Africa Champions, 15th Match",
-            "matchType": "t20",
-            "status": "Match not started",
-            "venue": "County Ground, Northampton",
-            "date": "2024-07-10",
-            "dateTimeGMT": "2024-07-10T15:30:00",
-            "teams": [
-                "India Champions",
-                "South Africa Champions"
+              "Hampshire",
+              "Gloucestershire"
             ],
             "teamInfo": [
-                {
-                    "name": "India Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "South Africa Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
+              {
+                "name": "Gloucestershire",
+                "shortname": "GLOU",
+                "img": "https://g.cricapi.com/iapi/1121-637885550747990018.webp?w=48"
+              },
+              {
+                "name": "Hampshire",
+                "shortname": "HAM",
+                "img": "https://g.cricapi.com/iapi/1122-637885550993657486.webp?w=48"
+              }
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
+            "score": [
+              {
+                "r": 176,
+                "w": 9,
+                "o": 20,
+                "inning": "Gloucestershire Inning 1"
+              },
+              {
+                "r": 177,
+                "w": 5,
+                "o": 20,
+                "inning": "Hampshire Inning 1"
+              }
+            ],
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
             "hasSquad": true,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "aa981025-add1-4c1d-9336-25218a311d2a",
-            "name": "West Indies Champions vs Australia Champions, 14th Match",
+            "matchStarted": true,
+            "matchEnded": true
+          },
+          {
+            "id": "72608cfb-e58f-44f2-be92-6ce1244f5634",
+            "name": "Warwickshire vs Worcestershire, North Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "County Ground, Northampton",
-            "date": "2024-07-10",
-            "dateTimeGMT": "2024-07-10T11:30:00",
-            "teams": [
-                "West Indies Champions",
-                "Australia Champions"
-            ],
-            "teamInfo": [
-                {
-                    "name": "Australia Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "West Indies Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": false,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "032de921-b8f3-4ec8-946b-0f7208da0cb8",
-            "name": "South Africa Champions vs Pakistan Champions, 13th Match",
-            "matchType": "t20",
-            "status": "Match not started",
+            "status": "Worcestershire won by 55 runs - 17 over match due to rain",
             "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-09",
-            "dateTimeGMT": "2024-07-09T15:30:00",
+            "date": "2024-07-12",
+            "dateTimeGMT": "2024-07-12T17:30:00",
             "teams": [
-                "South Africa Champions",
-                "Pakistan Champions"
+              "Warwickshire",
+              "Worcestershire"
             ],
             "teamInfo": [
-                {
-                    "name": "Pakistan Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "South Africa Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
+              {
+                "name": "Warwickshire",
+                "shortname": "WRKS",
+                "img": "https://g.cricapi.com/iapi/1137-637885552592685258.webp?w=48"
+              },
+              {
+                "name": "Worcestershire",
+                "shortname": "WRCS",
+                "img": "https://g.cricapi.com/iapi/1138-637889091123850841.webp?w=48"
+              }
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": false,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "6b367446-7461-4874-af0c-de066eacd997",
-            "name": "West Indies Champions vs England Champions, 12th Match",
-            "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-09",
-            "dateTimeGMT": "2024-07-09T11:30:00",
-            "teams": [
-                "West Indies Champions",
-                "England Champions"
+            "score": [
+              {
+                "r": 187,
+                "w": 6,
+                "o": 17,
+                "inning": "Worcestershire Inning 1"
+              },
+              {
+                "r": 132,
+                "w": 10,
+                "o": 15.2,
+                "inning": "Warwickshire Inning 1"
+              }
             ],
-            "teamInfo": [
-                {
-                    "name": "England Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "West Indies Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": false,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "8c4b0ba3-eb9a-43fa-9ca1-cd5f5f813cfb",
-            "name": "India Champions vs Australia Champions, 11th Match",
-            "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-08",
-            "dateTimeGMT": "2024-07-08T15:30:00",
-            "teams": [
-                "India Champions",
-                "Australia Champions"
-            ],
-            "teamInfo": [
-                {
-                    "name": "Australia Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "India Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
             "hasSquad": true,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "63db8b33-d04b-4c6e-b30b-7fb82035982e",
-            "name": "England Champions vs Pakistan Champions, 10th Match",
+            "matchStarted": true,
+            "matchEnded": true
+          },
+          {
+            "id": "f2e44794-4796-4d03-b363-eaf5f557aff7",
+            "name": "Kent vs Sussex, South Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-07",
-            "dateTimeGMT": "2024-07-07T15:30:00",
+            "status": "Sussex won by 88 runs",
+            "venue": "St Lawrence Ground, Canterbury",
+            "date": "2024-07-12",
+            "dateTimeGMT": "2024-07-12T17:30:00",
             "teams": [
-                "England Champions",
-                "Pakistan Champions"
+              "Kent",
+              "Sussex"
             ],
             "teamInfo": [
-                {
-                    "name": "England Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "Pakistan Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
+              {
+                "name": "Kent",
+                "shortname": "KENT",
+                "img": "https://g.cricapi.com/iapi/1124-637885551212175895.webp?w=48"
+              },
+              {
+                "name": "Sussex",
+                "shortname": "SUSS",
+                "img": "https://g.cricapi.com/iapi/1134-637889091814592518.webp?w=48"
+              }
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
+            "score": [
+              {
+                "r": 203,
+                "w": 4,
+                "o": 20,
+                "inning": "Sussex Inning 1"
+              },
+              {
+                "r": 115,
+                "w": 10,
+                "o": 16.2,
+                "inning": "Kent Inning 1"
+              }
+            ],
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
             "hasSquad": true,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "eafc7d1c-6ee8-4b89-9c70-a5ca112e293c",
-            "name": "South Africa Champions vs West Indies Champions, 9th Match",
+            "matchStarted": true,
+            "matchEnded": true
+          },
+          {
+            "id": "b5868df0-38e7-49d4-980a-053e15cb44ef",
+            "name": "Glamorgan vs Middlesex, South Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-07",
-            "dateTimeGMT": "2024-07-07T11:30:00",
+            "status": "Middlesex won by 6 wkts",
+            "venue": "Sophia Gardens, Cardiff",
+            "date": "2024-07-12",
+            "dateTimeGMT": "2024-07-12T17:30:00",
             "teams": [
-                "South Africa Champions",
-                "West Indies Champions"
+              "Glamorgan",
+              "Middlesex"
             ],
             "teamInfo": [
-                {
-                    "name": "South Africa Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "West Indies Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
+              {
+                "name": "Glamorgan",
+                "shortname": "GLAM",
+                "img": "https://g.cricapi.com/iapi/1120-637889090390357869.webp?w=48"
+              },
+              {
+                "name": "Middlesex",
+                "shortname": "MDX",
+                "img": "https://g.cricapi.com/iapi/1127-637889091340507643.webp?w=48"
+              }
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
+            "score": [
+              {
+                "r": 88,
+                "w": 9,
+                "o": 10,
+                "inning": "Glamorgan Inning 1"
+              },
+              {
+                "r": 89,
+                "w": 4,
+                "o": 9.3,
+                "inning": "Middlesex Inning 1"
+              }
+            ],
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
             "hasSquad": true,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "44014f41-240d-4d3e-a661-6e630dbc698a",
-            "name": "India Champions vs Pakistan Champions, 8th Match",
+            "matchStarted": true,
+            "matchEnded": true
+          },
+          {
+            "id": "8962195a-84ab-4a73-bfae-359cec4b6838",
+            "name": "Leicestershire vs Northamptonshire, North Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-06",
-            "dateTimeGMT": "2024-07-06T15:30:00",
+            "status": "Leicestershire won by 3 wkts",
+            "venue": "Grace Road, Leicester",
+            "date": "2024-07-12",
+            "dateTimeGMT": "2024-07-12T17:30:00",
             "teams": [
-                "India Champions",
-                "Pakistan Champions"
+              "Leicestershire",
+              "Northamptonshire"
             ],
             "teamInfo": [
-                {
-                    "name": "India Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "Pakistan Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
+              {
+                "name": "Leicestershire",
+                "shortname": "LECS",
+                "img": "https://g.cricapi.com/iapi/1126-637889090878436462.webp?w=48"
+              },
+              {
+                "name": "Northamptonshire",
+                "shortname": "NOR",
+                "img": "https://g.cricapi.com/iapi/1129-637885551856435418.webp?w=48"
+              }
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
+            "score": [
+              {
+                "r": 183,
+                "w": 7,
+                "o": 20,
+                "inning": "Northamptonshire Inning 1"
+              },
+              {
+                "r": 186,
+                "w": 7,
+                "o": 19.1,
+                "inning": "Leicestershire Inning 1"
+              }
+            ],
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
             "hasSquad": true,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "410cc5ca-f577-48e8-ac1c-c240741ad3ea",
-            "name": "England Champions vs Australia Champions, 7th Match",
+            "matchStarted": true,
+            "matchEnded": true
+          },
+          {
+            "id": "db5e0094-2cfe-403e-891d-aadf11894494",
+            "name": "Durham vs Nottinghamshire, North Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-06",
-            "dateTimeGMT": "2024-07-06T11:30:00",
+            "status": "Durham won by 30 runs",
+            "venue": "Riverside Ground, Chester-le-Street",
+            "date": "2024-07-12",
+            "dateTimeGMT": "2024-07-12T17:30:00",
             "teams": [
-                "England Champions",
-                "Australia Champions"
+              "Durham",
+              "Nottinghamshire"
             ],
             "teamInfo": [
-                {
-                    "name": "Australia Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "England Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
+              {
+                "name": "Durham",
+                "shortname": "DURH",
+                "img": "https://g.cricapi.com/iapi/1118-637889090599643548.webp?w=48"
+              },
+              {
+                "name": "Nottinghamshire",
+                "shortname": "NOT",
+                "img": "https://g.cricapi.com/iapi/1130-637889092060873937.webp?w=48"
+              }
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
+            "score": [
+              {
+                "r": 160,
+                "w": 6,
+                "o": 20,
+                "inning": "Durham Inning 1"
+              },
+              {
+                "r": 130,
+                "w": 9,
+                "o": 20,
+                "inning": "Nottinghamshire Inning 1"
+              }
+            ],
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
             "hasSquad": true,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "7e2babb7-d864-4b28-9da9-d4107558d896",
-            "name": "India Champions vs West Indies Champions, 6th Match",
+            "matchStarted": true,
+            "matchEnded": true
+          },
+          {
+            "id": "ef0d7f72-98e7-4bd9-86a9-5454181bb30b",
+            "name": "Nottinghamshire vs Leicestershire, North Group",
             "matchType": "t20",
-            "status": "Match not started",
-            "venue": "Edgbaston, Birmingham",
+            "status": "Nottinghamshire opt to bat",
+            "venue": "Trent Bridge, Nottingham",
             "date": "2024-07-05",
-            "dateTimeGMT": "2024-07-05T15:30:00",
+            "dateTimeGMT": "2024-07-05T17:30:00",
             "teams": [
-                "India Champions",
-                "West Indies Champions"
+              "Nottinghamshire",
+              "Leicestershire"
             ],
             "teamInfo": [
-                {
-                    "name": "India Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "West Indies Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": false,
-            "bbbEnabled": false,
-            "hasSquad": true,
-            "matchStarted": false,
-            "matchEnded": false
-        },
-        {
-            "id": "ab5741c8-af87-4400-9e43-22cb9dc41a5f",
-            "name": "Australia Champions vs South Africa Champions, 5th Match",
-            "matchType": "t20",
-            "status": "South Africa Champions opt to bowl",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-05",
-            "dateTimeGMT": "2024-07-05T11:30:00",
-            "teams": [
-                "Australia Champions",
-                "South Africa Champions"
-            ],
-            "teamInfo": [
-                {
-                    "name": "Australia Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "South Africa Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
+              {
+                "name": "Leicestershire",
+                "shortname": "LECS",
+                "img": "https://g.cricapi.com/iapi/1126-637889090878436462.webp?w=48"
+              },
+              {
+                "name": "Nottinghamshire",
+                "shortname": "NOT",
+                "img": "https://g.cricapi.com/iapi/1130-637889092060873937.webp?w=48"
+              }
             ],
             "score": [
-                {
-                    "r": 154,
-                    "w": 3,
-                    "o": 12.5,
-                    "inning": "Australia Champions Inning 1"
-                }
+              {
+                "r": 175,
+                "w": 5,
+                "o": 17,
+                "inning": "Nottinghamshire Inning 1"
+              }
             ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
+            "series_id": "363f8cd8-d89e-45b0-8978-c2f9015953b6",
             "fantasyEnabled": true,
             "bbbEnabled": true,
             "hasSquad": true,
             "matchStarted": true,
             "matchEnded": false
-        },
-        {
-            "id": "72f1864a-bed7-458f-9745-45354d6c15c7",
-            "name": "Pakistan Champions vs West Indies Champions, 4th Match",
-            "matchType": "t20",
-            "status": "Pakistan Champions won by 29 runs",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-04",
-            "dateTimeGMT": "2024-07-04T15:30:00",
-            "teams": [
-                "Pakistan Champions",
-                "West Indies Champions"
-            ],
-            "teamInfo": [
-                {
-                    "name": "Pakistan Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "West Indies Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "score": [
-                {
-                    "r": 194,
-                    "w": 8,
-                    "o": 20,
-                    "inning": "Pakistan Champions Inning 1"
-                },
-                {
-                    "r": 165,
-                    "w": 9,
-                    "o": 20,
-                    "inning": "West Indies Champions Inning 1"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": true,
-            "bbbEnabled": true,
-            "hasSquad": true,
-            "matchStarted": true,
-            "matchEnded": true
-        },
-        {
-            "id": "bd6ef309-2e8f-41b8-ae39-570fb132f395",
-            "name": "South Africa Champions vs England Champions, 3rd Match",
-            "matchType": "t20",
-            "status": "England Champions won by 9 wkts",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-04",
-            "dateTimeGMT": "2024-07-04T11:30:00",
-            "teams": [
-                "South Africa Champions",
-                "England Champions"
-            ],
-            "teamInfo": [
-                {
-                    "name": "England Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "South Africa Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "score": [
-                {
-                    "r": 137,
-                    "w": 10,
-                    "o": 19.2,
-                    "inning": "South Africa Champions Inning 1"
-                },
-                {
-                    "r": 138,
-                    "w": 1,
-                    "o": 11,
-                    "inning": "England Champions Inning 1"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": true,
-            "bbbEnabled": true,
-            "hasSquad": true,
-            "matchStarted": true,
-            "matchEnded": true
-        },
-        {
-            "id": "66807c56-33c6-436c-bd67-fa3a3b90af37",
-            "name": "Australia Champions vs Pakistan Champions, 2nd Match",
-            "matchType": "t20",
-            "status": "Pakistan Champions won by 5 wkts",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-03",
-            "dateTimeGMT": "2024-07-03T15:30:00",
-            "teams": [
-                "Australia Champions",
-                "Pakistan Champions"
-            ],
-            "teamInfo": [
-                {
-                    "name": "Australia Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "Pakistan Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "score": [
-                {
-                    "r": 189,
-                    "w": 7,
-                    "o": 20,
-                    "inning": "Australia Champions Inning 1"
-                },
-                {
-                    "r": 191,
-                    "w": 5,
-                    "o": 19.4,
-                    "inning": "Pakistan Champions Inning 1"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": true,
-            "bbbEnabled": true,
-            "hasSquad": true,
-            "matchStarted": true,
-            "matchEnded": true
-        },
-        {
-            "id": "f8f146e3-ae0f-4d8d-9e2b-becd95e26f68",
-            "name": "England Champions vs India Champions, 1st Match",
-            "matchType": "t20",
-            "status": "India Champions won by 3 wkts",
-            "venue": "Edgbaston, Birmingham",
-            "date": "2024-07-03",
-            "dateTimeGMT": "2024-07-03T11:30:00",
-            "teams": [
-                "England Champions",
-                "India Champions"
-            ],
-            "teamInfo": [
-                {
-                    "name": "England Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                },
-                {
-                    "name": "India Champions",
-                    "img": "https://h.cricapi.com/img/icon512.png"
-                }
-            ],
-            "score": [
-                {
-                    "r": 165,
-                    "w": 4,
-                    "o": 20,
-                    "inning": "England Champions Inning 1"
-                },
-                {
-                    "r": 166,
-                    "w": 7,
-                    "o": 19,
-                    "inning": "India Champions Inning 1"
-                }
-            ],
-            "series_id": "d13235de-1bd4-4e5e-87e8-766c21f11661",
-            "fantasyEnabled": true,
-            "bbbEnabled": true,
-            "hasSquad": true,
-            "matchStarted": true,
-            "matchEnded": true
+          }
+        ],
+        "status": "success",
+        "info": {
+          "hitsToday": 28,
+          "hitsUsed": 1,
+          "hitsLimit": 100,
+          "credits": 0,
+          "server": 2,
+          "offsetRows": 95,
+          "totalRows": 108,
+          "queryTime": 33.8777,
+          "s": 0,
+          "cache": 0
         }
-    ],
-    "status": "success",
-    "info": {
-        "hitsToday": 2,
-        "hitsUsed": 1,
-        "hitsLimit": 100,
-        "credits": 0,
-        "server": 22,
-        "offsetRows": 0,
-        "totalRows": 8215,
-        "queryTime": 267.0916,
-        "s": 0,
-        "cache": 0
-    }
-}]
+      }
+    ]
