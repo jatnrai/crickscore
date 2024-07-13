@@ -1,8 +1,8 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Components/Home/Home';
-import LiveMatch from './Components/LiveMatch/LiveMatch';
+import Home from './Components/Pages/Home/Home';
+import LiveMatch from './Components/Pages/LiveMatch/LiveMatch';
 import Login from './Components/Auth/Login/Login';
 import SignIn from './Components/Auth/Signin/SignIn';
 

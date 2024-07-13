@@ -1,8 +1,9 @@
 // Home.js
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import {LiveMatchesData} from '../Data/LiveMatchesData';
+import {LiveMatchesData} from '../../Data/LiveMatchesData';
 import LiveMatchesCard from './LiveMatchesCard';
+import Header from '../../Common/Header/Header';
 
 function Home() {
   const [data, setData] = useState({});
@@ -19,7 +20,7 @@ function Home() {
 
   return (
     <div>
-      <h1 className='text-center m-3'>CrickScore</h1>
+      <Header />
       <Container>
       <LiveMatchesCard  data={data}  dummyTeam={dummyTeam} />
     </Container>
