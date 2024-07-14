@@ -5,6 +5,7 @@ import Home from './Components/Pages/Home/Home';
 import LiveMatch from './Components/Pages/LiveMatch/LiveMatch';
 import Login from './Components/Auth/Login/Login';
 import SignIn from './Components/Auth/Signin/SignIn';
+import Contact from './Components/Pages/Email/Email';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/livematch" element={<LiveMatch />} />
+          <Route path="/livematches" element={<LiveMatch />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
