@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-      <header className="navbar mb-3">
+      <header className="navbar">
     <Container>
       <div className="navbar-container">
         <Link to='/' className="navbar-logo " style={logoLink}>CricScore</Link>
