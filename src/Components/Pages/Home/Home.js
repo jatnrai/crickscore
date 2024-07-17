@@ -34,7 +34,7 @@ function Home() {
         <Container>
         <div className='d-flex justify-content-around m-3'>
         <Link className='fs-4' style={HomebannerLink} to='/livematches'>Live Matches</Link>
-        <Link className='fs-4' style={HomebannerLink} to='/series'>Series list</Link>
+        <Link className='fs-4' style={HomebannerLink} to='/SeriesList'>Series list</Link>
         </div>
         </Container>
       </div>

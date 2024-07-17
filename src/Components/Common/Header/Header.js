@@ -24,7 +24,7 @@ const Navbar = () => {
         <nav className={`navbar-menu ${isOpen ? 'open' : ''}`}>
           <ul className="navbar-links">
             <li><Link to="/livematches">LiveMatches</Link></li>
-            <li><Link to="/Series">Series</Link></li>
+            <li><Link to="/SeriesList">Series</Link></li>
             <li><Link to="">About</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
           </ul>

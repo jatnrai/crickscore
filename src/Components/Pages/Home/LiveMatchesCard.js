@@ -1,4 +1,3 @@
-import { width } from '@fortawesome/free-solid-svg-icons/fa0';
 import React, { useState, useEffect } from 'react';
 import { Row, Col, Card, Image, CardHeader } from 'react-bootstrap';
 
@@ -149,63 +148,3 @@ export default function LiveMatchesCard({ data, dummyTeam }) {
     </Row>
   );
 }
-
-
-
-// return (
-//   <Row>
-//     {sortedData && sortedData.length > 0 ? (
-//       sortedData.map((match) => (
-//         <Col md={6} xs={12} className="mb-4" key={match.id}>
-//           <Card>
-//             <CardHeader className='p-2.8'>
-//               <h6 className='text-start fw-normal m-0'>{match.name}</h6>
-//             </CardHeader>
-//             <Card.Body>
-//               {match.teamInfo && match.teamInfo.length > 0 ? (
-//                 <Row className="d-flex justify-content-between align-items-center">
-//                   <Col className="my-2 d-flex align-items-center justify-content-center">
-//                     <Image src={match.teamInfo[0].img} rounded width={40} />
-//                     <Card.Text className="ml-2 ms-2 fw-bold">{match.teamInfo[0].shortname ? match.teamInfo[0].shortname : match.teamInfo[0].name}</Card.Text>
-                  
-//                   <div>
-//                     <span>{match.teamInfo[0].name}</span>
-//                   </div>
-//                   </Col>
-
-//                   <Col className='my-2'>
-//                     {match.dateTimeGMT && <Countdown startTime={match.dateTimeGMT} onEnd={() => handleCountdownEnd(match.id)} />}
-//                   </Col>
-
-//                   <Col className="my-2 d-flex align-items-center justify-content-center">
-//                     <Card.Text className="mb-0 me-2 fw-bold">{match.teamInfo[1].shortname ? match.teamInfo[1].shortname : match.teamInfo[1].name}</Card.Text>
-//                     <Image src={match.teamInfo[1].img} rounded width={40} />
-//                   </Col>
-//                 </Row>
-//               ) : (
-//                 <Row className="d-flex justify-content-between">
-//                   {dummyTeam.map((team, index) => (
-//                     <Col key={index} className="mb-4 d-flex align-items-center">
-//                       <Image src={team.img} rounded width={50} />
-//                       <Card.Text className="ml-2 ms-2">{team.name}</Card.Text>
-//                     </Col>
-//                   ))}
-//                 </Row>
-//               )}
-
-//               {match.dateTimeGMT && matchStarted[match.id] &&
-//                 <Card.Text className='text-center' style={LiveMatche}>Live Now</Card.Text>
-//               }
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//       ))
-//     ) : (
-//       <Row>
-//         <Col>
-//           <p>No data available</p>
-//         </Col>
-//       </Row>
-//     )}
-//   </Row>
-// );
