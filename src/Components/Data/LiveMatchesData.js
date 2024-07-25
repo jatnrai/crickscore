@@ -6,7 +6,7 @@
             "id": "bbaec179-8378-458b-bc1a-2e96186f1172",
             "name": "Scotland vs Oman, 13th Match",
             "matchType": "odi",
-            "status": "Rain stops play - Scotland need 25 runs",
+            "status": "No result",
             "venue": "Forthill, Dundee",
             "date": "2024-07-16",
             "dateTimeGMT": "2024-07-16T10:00:00",
@@ -45,7 +45,52 @@
             "bbbEnabled": true,
             "hasSquad": true,
             "matchStarted": true,
-            "matchEnded": false
+            "matchEnded": true
+          },
+          {
+            "id": "738288d5-62bf-43e7-b83a-13ca23c50cdd",
+            "name": "Kenya vs Nigeria, 5th T20I",
+            "matchType": "t20",
+            "status": "Kenya won by 4 wkts",
+            "venue": "Sikh Union Club Ground, Nairobi",
+            "date": "2024-07-17",
+            "dateTimeGMT": "2024-07-17T06:30:00",
+            "teams": [
+              "Kenya",
+              "Nigeria"
+            ],
+            "teamInfo": [
+              {
+                "name": "Kenya",
+                "shortname": "KEN",
+                "img": "https://g.cricapi.com/iapi/620-637877088284816006.webp?w=48"
+              },
+              {
+                "name": "Nigeria",
+                "shortname": "NGA",
+                "img": "https://g.cricapi.com/iapi/635-637867646765235442.webp?w=48"
+              }
+            ],
+            "score": [
+              {
+                "r": 155,
+                "w": 8,
+                "o": 20,
+                "inning": "Nigeria Inning 1"
+              },
+              {
+                "r": 156,
+                "w": 6,
+                "o": 19.1,
+                "inning": "Kenya Inning 1"
+              }
+            ],
+            "series_id": "e5710078-b96a-4002-8d32-a1c175dbdf13",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
           },
           {
             "id": "664106af-a469-46da-bad1-daff541a1e2a",
@@ -83,51 +128,6 @@
                 "w": 8,
                 "o": 20,
                 "inning": "Kenya Inning 1"
-              }
-            ],
-            "series_id": "e5710078-b96a-4002-8d32-a1c175dbdf13",
-            "fantasyEnabled": true,
-            "bbbEnabled": true,
-            "hasSquad": true,
-            "matchStarted": true,
-            "matchEnded": true
-          },
-          {
-            "id": "5597fb2b-db7a-4381-a080-a1dfd59dc7cd",
-            "name": "Kenya vs Nigeria, 3rd T20I",
-            "matchType": "t20",
-            "status": "Nigeria won by 3 wkts",
-            "venue": "Sikh Union Club Ground, Nairobi",
-            "date": "2024-07-15",
-            "dateTimeGMT": "2024-07-15T06:30:00",
-            "teams": [
-              "Kenya",
-              "Nigeria"
-            ],
-            "teamInfo": [
-              {
-                "name": "Kenya",
-                "shortname": "KEN",
-                "img": "https://g.cricapi.com/iapi/620-637877088284816006.webp?w=48"
-              },
-              {
-                "name": "Nigeria",
-                "shortname": "NGA",
-                "img": "https://g.cricapi.com/iapi/635-637867646765235442.webp?w=48"
-              }
-            ],
-            "score": [
-              {
-                "r": 149,
-                "w": 7,
-                "o": 20,
-                "inning": "Kenya Inning 1"
-              },
-              {
-                "r": 150,
-                "w": 7,
-                "o": 19.2,
-                "inning": "Nigeria Inning 1"
               }
             ],
             "series_id": "e5710078-b96a-4002-8d32-a1c175dbdf13",
@@ -848,10 +848,10 @@
           "hitsUsed": 1,
           "hitsLimit": 100,
           "credits": 0,
-          "server": 22,
+          "server": 7,
           "offsetRows": 0,
-          "totalRows": 102,
-          "queryTime": 42.2437,
+          "totalRows": 99,
+          "queryTime": 46.3082,
           "s": 0,
           "cache": 0
         }
