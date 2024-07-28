@@ -30,7 +30,7 @@ function Home() {
     <div>
       <Header />
       <div className='homeBanner'>
-        <h2 className='p-4 m-3'>Choose any option or search matches according to countary name.</h2>
+        <h2 className='p-4 m-3 text-center'>Choose any option or search matches according to countary name.</h2>
         <Container>
         <div className='d-flex justify-content-around m-3'>
         <Link className='fs-4' style={HomebannerLink} to='/livematches'>Live Matches</Link>
