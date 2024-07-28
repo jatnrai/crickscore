@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, Row, Col, Image, CardHeader } from 'react-bootstrap';
 import Countdown from './Countdown';
 
-const MatchCard = ({ match, dummyTeam, handleCountdownEnd, matchStarted }) => {
+const MatchCard = ({ match, dummyTeam, handleCountdownEnd, matchStarted, lg, md, xs }) => {
   const LiveMatche = {
     backgroundColor: 'red',
     backgroundImage: 'linear-gradient(to right, green 5%, white)',
@@ -15,7 +15,7 @@ const MatchCard = ({ match, dummyTeam, handleCountdownEnd, matchStarted }) => {
   };
 
   return (
-    <Col lg={6} md={10} xs={11} className="mb-4">
+    <Col lg={lg} md={md} xs={xs} className="mb-4">
       <Card>
       <CardHeader className='p-2.8'>
                 <h6 className='text-start fw-normal m-0 mobile-font-size-12p'>{match.name}</h6>

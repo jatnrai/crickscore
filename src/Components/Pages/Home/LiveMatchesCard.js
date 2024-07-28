@@ -20,6 +20,9 @@ export default function LiveMatchesCard({ data, dummyTeam }) {
             dummyTeam={dummyTeam}
             handleCountdownEnd={handleCountdownEnd}
             matchStarted={matchStarted}
+            lg={5}
+            md={8}
+            xs={11}
           />
         ))
       ) : (

@@ -36,6 +36,9 @@ function LiveMatch({ dummyTeam }) {
               dummyTeam={dummyTeam}
               handleCountdownEnd={handleCountdownEnd}
               matchStarted={matchStarted}
+              lg={6}
+              md={10}
+              xs={11}
             />
           ))
         ) : (
