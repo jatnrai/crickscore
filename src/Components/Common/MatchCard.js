@@ -25,8 +25,8 @@ const MatchCard = ({ match, dummyTeam, handleCountdownEnd, matchStarted, lg, md,
             <Row className="d-flex justify-content-between align-items-center">
               <Col className="my-2 d-flex align-items-center justify-content-center flex-column">
                 <div className='d-flex align-items-center' style={{ margin: '0 auto 0 0 ' }}>
-                  <Image src={match.teamInfo[0].img} rounded width={40} />
-                  <Card.Text className="ml-2 ms-2 fw-bold reponsive_small_title">{match.teamInfo[0].shortname ? match.teamInfo[0].shortname : match.teamInfo[0].name}</Card.Text>
+                  <Image src={match.teamInfo[0].img} rounded width={30} />
+                  <Card.Text className="ml-2 ms-2 fw-semibold reponsive_small_title">{match.teamInfo[0].shortname ? match.teamInfo[0].shortname : match.teamInfo[0].name}</Card.Text>
                 </div>
 
                 <div style={{ margin: '0 auto 0 0 ' }}>
@@ -40,8 +40,8 @@ const MatchCard = ({ match, dummyTeam, handleCountdownEnd, matchStarted, lg, md,
 
               <Col className="my-2 d-flex align-items-center justify-content-center flex-column">
                 <div className='d-flex align-items-center' style={{ margin: '0 0 0 auto' }}>
-                  <Card.Text className="mb-0 me-2 fw-bold reponsive_small_title">{match.teamInfo[1].shortname ? match.teamInfo[1].shortname : match.teamInfo[1].name}</Card.Text>
-                  <Image src={match.teamInfo[1].img} rounded width={40} />
+                  <Card.Text className="mb-0 me-2 fw-semibold reponsive_small_title">{match.teamInfo[1].shortname ? match.teamInfo[1].shortname : match.teamInfo[1].name}</Card.Text>
+                  <Image src={match.teamInfo[1].img} rounded width={30} />
                 </div>
 
                 <div style={{ margin: '0 0 0 auto' }}>
