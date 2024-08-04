@@ -9,7 +9,7 @@ function Countdown({ startTime, onEnd }) {
     textAlign: 'center',
     color: 'red',
     fontWeight: 'bold',
-    fontSize: '13px',
+    fontSize: '12px',
     backgroundColor: '#f016160f',
     width: '75px',
     margin: "0 auto",

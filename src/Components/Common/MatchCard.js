@@ -34,7 +34,7 @@ const MatchCard = ({ match, dummyTeam, handleCountdownEnd, matchStarted, lg, md,
                 </div>
               </Col>
 
-              <Col className='my-2'>
+              <Col className='my-2 p-0'>
                 {match.dateTimeGMT && <Countdown startTime={match.dateTimeGMT} onEnd={() => handleCountdownEnd(match.id)} />}
               </Col>
 
