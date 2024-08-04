@@ -27,7 +27,7 @@ function LiveMatch({ dummyTeam }) {
   <Container className='mt-4'>
   <h3 className='text-center'>Live Matches</h3>
 
-      <Row>
+      <Row className='justify-content-center'>
         {data && data.length > 0 ? (
           data.map((match) => (
             <MatchCard
