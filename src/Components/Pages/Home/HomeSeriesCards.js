@@ -1,9 +1,9 @@
 // src/components/LiveMatchesCard.js
 import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import MatchCard from '../../Common/Cards/MatchCard';
+import SeriesCard from '../../Common/Cards/SeriesCard';
 
-export default function LiveMatchesCard({ data, dummyTeam }) {
+export default function HomeSeriesCards({ seriesData, dummyTeam }) {
   const [matchStarted, setMatchStarted] = useState({});
 
   const handleCountdownEnd = (matchId) => {
@@ -12,9 +12,9 @@ export default function LiveMatchesCard({ data, dummyTeam }) {
 
   return (
     <Row className='flex-row' style={{flexWrap: 'nowrap', overflow: 'scroll'}}>
-      {data && data.length > 0 ? (
-        data.map((match) => (
-          <MatchCard
+      {/* {seriesData && seriesData.length > 0 ? (
+        seriesData.map((match) => (
+          <SeriesCard
             key={match.id}
             match={match}
             dummyTeam={dummyTeam}
@@ -31,7 +31,26 @@ export default function LiveMatchesCard({ data, dummyTeam }) {
             <p>No data available</p>
           </Col>
         </Row>
-      )}
+      )} */}
+      {seriesData && seriesData.length > 0 ? (
+        seriesData.map((series) => (
+              <SeriesCard
+                key={series.id}
+                series={series}
+                dummyTeam={dummyTeam}
+                handleCountdownEnd={handleCountdownEnd}
+                lg={5}
+                md={8}
+                xs={10}
+              />
+            ))
+          ) : (
+            <Row>
+              <Col>
+                <p>No data available</p>
+              </Col>
+            </Row>
+          )}
     </Row>
   );
 }

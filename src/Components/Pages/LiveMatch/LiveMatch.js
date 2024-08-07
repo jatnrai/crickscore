@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../Common/Header/Header';
 import { Row, Col, Container } from 'react-bootstrap';
-import MatchCard from '../../Common/MatchCard';
+import MatchCard from '../../Common/Cards/MatchCard';
 import {LiveMatchesData} from '../../Data/LiveMatchesData';
 
 

@@ -2,13 +2,16 @@
 import React, { useEffect, useState } from 'react';
 import { Container, TabContainer } from 'react-bootstrap';
 import {LiveMatchesData} from '../../Data/LiveMatchesData';
+import {AllSeriesData} from '../../Data/AllSeriesData';
 import LiveMatchesCard from './LiveMatchesCard';
 import Header from '../../Common/Header/Header';
 import "./Home.css";
 import { Link } from 'react-router-dom';
+import HomeSeriesCards from './HomeSeriesCards';
 
 function Home() {
   const [data, setData] = useState({});
+  const [seriesData, setSeriesData] = useState({});
 
   const HomebannerLink ={
     textDecoration: 'none',
@@ -18,6 +21,11 @@ function Home() {
   useEffect(() => {
     setData(LiveMatchesData[0].data)
   } ,[])
+  useEffect(() => {
+    setSeriesData(AllSeriesData[0].data);
+  }, []);
+
+
 
   const dummyTeam = [
     {img: "https://www.gstatic.com/onebox/sports/logos/crest_48dp.png", name: "TBA"},
@@ -41,6 +49,8 @@ function Home() {
       <Container>
       <h3 className='text-start m-3'>Live Matches</h3>
       <LiveMatchesCard  data={data}  dummyTeam={dummyTeam} />
+      <h3 className='text-start m-3'> Series List</h3>
+      <HomeSeriesCards seriesData={seriesData}  dummyTeam={dummyTeam}/>
     </Container>
      </div>
   );
