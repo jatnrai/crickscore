@@ -1,6 +1,6 @@
 // Home.js
 import React, { useEffect, useState } from 'react';
-import { Container, TabContainer } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import {LiveMatchesData} from '../../Data/LiveMatchesData';
 import {AllSeriesData} from '../../Data/AllSeriesData';
 import LiveMatchesCard from './LiveMatchesCard';
