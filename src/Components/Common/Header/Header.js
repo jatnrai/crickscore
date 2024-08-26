@@ -20,7 +20,7 @@ const Navbar = () => {
       <header className="navbar">
     <Container>
       <div className="navbar-container">
-        <Link to='/' className="navbar-logo " style={logoLink}>CricScore</Link>
+        <Link to='/' className="navbar-logo " style={logoLink}>CrickScore</Link>
         <nav className={`navbar-menu ${isOpen ? 'open' : ''}`}>
           <ul className="navbar-links">
             <li><Link to="/livematches">LiveMatches</Link></li>
